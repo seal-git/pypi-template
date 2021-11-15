@@ -1,0 +1,15 @@
+# .pypirc用の雛形。パスワードだけを別で入力。
+[distutils]
+index-servers =
+    pypi
+    pypitest
+
+[pypi]
+repository: https://upload.pypi.org/legacy/
+username: seal_pypi
+password: xxxxxx
+
+[pypitest]
+repository: https://test.pypi.org/legacy/
+username: seal_pypi
+password: xxxxxx

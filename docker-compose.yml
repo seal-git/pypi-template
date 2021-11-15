@@ -1,0 +1,14 @@
+version: '3'
+services:
+  pypy-template:
+    image: pyt
+    container_name: pyt
+    build:
+      dockerfile: Dockerfile
+    restart: on-failure
+    ports:
+    - "6006:6006"
+    - "8888:8888"
+    volumes:
+    - .:/workspace
+    tty: true

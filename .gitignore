@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+.pytest_cache
+.idea
+build
+dist
+*.egg-info
+bundle.js
+__pycache__
+.env
